@@ -216,7 +216,7 @@ magic run mojo tests/test_jwt.mojo
 
 ## License
 
-MIT License
+Apache 2.0 License
 
 ## Part of mojo-contrib
 
