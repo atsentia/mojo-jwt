@@ -1,0 +1,17 @@
+[project]
+name = "mojo-jwt"
+version = "0.1.0"
+description = "Pure Mojo JWT validation library with HS256 support"
+authors = ["IDEA2CODE Team"]
+channels = ["conda-forge", "https://conda.modular.com/max"]
+platforms = ["osx-arm64", "linux-64"]
+
+[tasks]
+build = "magic run mojo build src/"
+test = "magic run mojo test tests/"
+
+[dependencies]
+max = ">=24.6,<25"
+
+[feature.dev.dependencies]
+pytest = ">=8.0.0"
